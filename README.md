@@ -19,10 +19,9 @@ Cons
 Conversion guide
 ================
 
-- Convert XML to JXML by following conversion rules described at JXML reference document. See http://github.com/r-lyeh/JXML for details.
+- Convert JSON to JXML by following conversion rules described at JXML reference document (details at http://github.com/r-lyeh/JXML).
 - Then, for every XML target node that has a property name, add an attribute whereas propertyname="text()".
-- Property name must be escaped to be compliant with XML attribute naming.
-- When escaping attribute names, all invalid characters are escaped to underscore characters.
+- Property name must be escaped to be compliant with XML attribute naming: all invalid characters are escaped to underscore characters.
 
 JXMLex sample
 =============
