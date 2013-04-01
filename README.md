@@ -3,6 +3,7 @@ JXMLex, revision 0
 
 - JXMLex is an expressive and relatively small representation of JSON in XML, so data can be reused with XML tools.
 - JXMLex is based on JSONx and JXML (details at http://github.com/r-lyeh/JXML). 
+- JXMLex syntax is subject to change.
 - Use JXML when a loss-less JSON representation and/or smaller XML files are required (details at http://github.com/r-lyeh/JXML).
 
 Pros
