@@ -1,24 +1,26 @@
 JXMLex, revision 0
 ==================
 
-JXMLex is a loss-less representation of JSON in XML, so data can be reused with XML tools.
+JXMLex is an expressive and relatively small representation of JSON in XML, so data can be reused with XML tools.
 JXMLex is based on JSONx and JXML (See http://github.com/r-lyeh/JXML for details). 
 
-    Pros: JXMLex syntax provides more natural and expressive XPath queries by adding attributes and duplicating information.
-    Cons: JXMLex files are larger than their JXML counterparts.
+Pros: 
+- JXMLex syntax provides more natural and expressive XPath queries by adding attributes and duplicating information.
+Cons:
+- JXMLex files are larger than their JXML counterparts.
 
-    Pros: JXMLex is a richer superset of JXML. JXML tools can still parse JXMLex files.
-    Cons: JXMLex attributes are a lossy conversion from JSON per se. If you need to retrieve original lossless name, then read @son attribute instead.
+Pros:
+- JXMLex is a richer superset of JXML. JXML tools can still parse JXMLex files.
+Cons:
+- JXMLex attributes are a lossy conversion from JSON per se. If you need to retrieve original lossless name, then read @son attribute instead.
 
 Conversion guide
 ================
 
-Convert XML to JXML by following conversion rules described at JXML reference document.
-See http://github.com/r-lyeh/JXML for details.
-
-Then, for every XML target node that has a property name, add an attribute whereas propertyname="text()".
-Property name must be escaped to be compliant with XML attribute naming.
-When escaping attribute names, all invalid characters are escaped to underscore characters.
+- Convert XML to JXML by following conversion rules described at JXML reference document. See http://github.com/r-lyeh/JXML for details.
+- Then, for every XML target node that has a property name, add an attribute whereas propertyname="text()".
+- Property name must be escaped to be compliant with XML attribute naming.
+- When escaping attribute names, all invalid characters are escaped to underscore characters.
 
 JXMLex sample
 =============
@@ -67,5 +69,5 @@ The following output is the result of the transformed document to JXML.
 Credits
 =======
 
-JXMLex was created by Mario "rlyeh" Rodriguez.
-JSONx is an IBM® standard format to represent JSON as XML.
+- JXMLex was created by Mario "rlyeh" Rodriguez.
+- JSONx is an IBM® standard format to represent JSON as XML.
