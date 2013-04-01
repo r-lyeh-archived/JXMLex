@@ -52,29 +52,29 @@ The following example document is a sample of the JSON structure.
       "additionalInfo": null,
       "remote": false,
       "height": 62.4,
-      "ficoScore": "> 640"
+      "ficoScore": "&gt; 640"
     }
 
 The following output is the result of the transformed document to JXML.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <j son="o">
-        <j son="s:name" name_surname="John Smith">John Smith</j>
-        <j son="o:address" address="">
-            <j son="s:streetAddress" streetAddress="21 2nd Street">21 2nd Street</j>
-            <j son="s:city" city="New York">New York</j>
-            <j son="s:state" state="NY">NY</j>
-            <j son="n:postal-code" postal_code="10021">10021</j>
-        </j>
-        <j son="a:IDs" IDs="">
-            <j son="s">2-111</j>
-            <j son="s">2-222</j>
-        </j>
-        <j son="0:additionalInfo" additionalInfo="" />
-        <j son="b:remote" remote="false">false</j>
-        <j son="n:height" height="62.4">62.4</j>
-        <j son="s:ficoScore" ficoScore="&gt; 640">&gt; 640</j>
-    </j>
+    &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+    &lt;j son="o"&gt;
+        &lt;j son="s:name" name_surname="John Smith"&gt;John Smith&lt;/j&gt;
+        &lt;j son="o:address" address=""&gt;
+            &lt;j son="s:streetAddress" streetAddress="21 2nd Street"&gt;21 2nd Street&lt;/j&gt;
+            &lt;j son="s:city" city="New York"&gt;New York&lt;/j&gt;
+            &lt;j son="s:state" state="NY"&gt;NY&lt;/j&gt;
+            &lt;j son="n:postal-code" postal_code="10021"&gt;10021&lt;/j&gt;
+        &lt;/j&gt;
+        &lt;j son="a:IDs" IDs=""&gt;
+            &lt;j son="s"&gt;2-111&lt;/j&gt;
+            &lt;j son="s"&gt;2-222&lt;/j&gt;
+        &lt;/j&gt;
+        &lt;j son="0:additionalInfo" additionalInfo="" /&gt;
+        &lt;j son="b:remote" remote="false"&gt;false&lt;/j&gt;
+        &lt;j son="n:height" height="62.4"&gt;62.4&lt;/j&gt;
+        &lt;j son="s:ficoScore" ficoScore="&gt; 640"&gt;&amp;gt; 640&lt;/j&gt;
+    &lt;/j&gt;
 
 Credits
 =======
