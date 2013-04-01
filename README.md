@@ -73,7 +73,7 @@ The following output is the result of the transformed document to JXML.
         &lt;j son="0:additionalInfo" additionalInfo="" /&gt;
         &lt;j son="b:remote" remote="false"&gt;false&lt;/j&gt;
         &lt;j son="n:height" height="62.4"&gt;62.4&lt;/j&gt;
-        &lt;j son="s:ficoScore" ficoScore="&gt; 640"&gt;&amp;gt; 640&lt;/j&gt;
+        &lt;j son="s:ficoScore" ficoScore="&amp;gt; 640"&gt;&amp;gt; 640&lt;/j&gt;
     &lt;/j&gt;
 
 Credits
