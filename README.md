@@ -1,3 +1,4 @@
+<pre>
 JXMLex, revision 0
 ==================
 
@@ -72,3 +73,4 @@ Credits
 
 - JXMLex was created by Mario "rlyeh" Rodriguez.
 - JSONx is an IBM® standard format to represent JSON as XML.
+</pre>
