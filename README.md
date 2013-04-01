@@ -1,9 +1,8 @@
 JXMLex, revision 0
 ==================
 
-JXMLex is an expressive and relatively small representation of JSON in XML, so data can be reused with XML tools.
-
-JXMLex is based on JSONx and JXML (See http://github.com/r-lyeh/JXML for details). 
+- JXMLex is an expressive and relatively small representation of JSON in XML, so data can be reused with XML tools.
+- JXMLex is based on JSONx and JXML (See http://github.com/r-lyeh/JXML for details). 
 
 Pros: 
 - JXMLex syntax provides more natural and expressive XPath queries by adding attributes and duplicating information.
@@ -53,7 +52,7 @@ The following output is the result of the transformed document to JXML.
             <j son="s:streetAddress" streetAddress="21 2nd Street">21 2nd Street</j>
             <j son="s:city" city="New York">New York</j>
             <j son="s:state" state="NY">NY</j>
-            <j son="n:postalCode" postal_code="10021">10021</j>
+            <j son="n:postal-code" postal_code="10021">10021</j>
         </j>
         <j son="a:IDs" IDs="">
             <j son="s">2-111</j>
