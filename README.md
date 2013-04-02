@@ -9,15 +9,15 @@ Pros: JXMLex syntax provides more natural and expressive XPath queries by adding
 Cons: JXMLex files are larger than their JXML counterparts.
 
 Pros: JXMLex is a richer superset of JXML. JXML tools can still parse JXMLex files.
-Cons: JXMLex attributes are a lossy conversion from JSON per se. If you need to retrieve original lossless name, then read @son attribute instead.
+Cons: JXMLex attributes are lossy converted from JSON. Read @son attribute to retrieve original name instead.
 
 TL;DR
 =====
 
 - Use JXML when a loss-less JSON representation is required (details at http://github.com/r-lyeh/JXML).
 - Use JXML when size matters (details at http://github.com/r-lyeh/JXML).
-- Use JXMLex when complex XPath statements are going to be made (details below).
-- Use JXMLex when size of target XML is not mandatory (details below).
+- Use JXMLex when complex XPath statements are going to be made (see details below).
+- Use JXMLex when ease of use and flexibility are mandatory (see details below).
 
 Notes
 =====
@@ -55,7 +55,7 @@ The following example document is a sample of the JSON structure.
       "ficoScore": "&gt; 640"
     }
 
-The following output is the result of the transformed document to JXML.
+The following output is the result of the transformed document to JXMLex.
 
     &lt;?xml version="1.0" encoding="UTF-8"?&gt;
     &lt;j son="o"&gt;
