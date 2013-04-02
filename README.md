@@ -2,10 +2,11 @@
 JXMLex, revision 0
 ==================
 
+JXMLex is an extended JXML file format.
 JXMLex is an expressive and relatively small representation of JSON in XML, so data can be reused with XML tools.
 JXMLex is based on JSONx and JXML (details at http://github.com/r-lyeh/JXML). 
 
-Pros: JXMLex syntax provides more natural and expressive XPath queries by adding attributes and duplicating information.
+Pros: JXMLex syntax provides natural and expressive XPath queries by adding attributes and duplicating information.
 Cons: JXMLex files are larger than their JXML counterparts.
 
 Pros: JXMLex is a richer superset of JXML. JXML tools can still parse JXMLex files.
@@ -14,10 +15,10 @@ Cons: JXMLex attributes are lossy converted from JSON. Read @son attribute to re
 TL;DR
 =====
 
-- Use JXML when a loss-less JSON representation is required (details at http://github.com/r-lyeh/JXML).
+- Use JXML when a lossless JSON representation is required (details at http://github.com/r-lyeh/JXML).
 - Use JXML when size matters (details at http://github.com/r-lyeh/JXML).
-- Use JXMLex when complex XPath statements are going to be made (see details below).
-- Use JXMLex when ease of use and flexibility are mandatory (see details below).
+- Use JXMLex when complex XPath statements are going to be made (details below).
+- Use JXMLex when ease of use and flexibility are mandatory (details below).
 
 Notes
 =====
